@@ -37,7 +37,7 @@ flowchart LR
     G3["Event impact on visits"]
   end
 
-    S1 --> B1
+S1 --> B1
   S2 --> B1
   S3 --> B1
   S4 --> B1
@@ -46,10 +46,5 @@ flowchart LR
   S6 --> G2
   S6 --> G3
 
-  G1 --> BI["Power BI<br/>row-level security"]
-  G2 --> BI
-  G3 --> BI
-
-  S5 -.->|"failed checks"| Q["Quarantine and alerts"]
-  Q -.-> M["Monitoring"]
+ 
 ```
